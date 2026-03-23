@@ -1,0 +1,14 @@
+{
+  "name": "parcel-ledger-automation",
+  "private": true,
+  "scripts": {
+    "issue": "tsx gov_issue_playwright.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
