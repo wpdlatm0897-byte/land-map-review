@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample_parcels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "pnu": "1111010100100010000",
+        "sido": "서울특별시",
+        "sigungu": "종로구",
+        "eupmyeondong": "청운동",
+        "jibun": "1-1",
+        "road_address": "서울특별시 종로구 청운동 1-1",
+        "status": "not_issued"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [126.97765, 37.56690],
+            [126.97815, 37.56690],
+            [126.97815, 37.56722],
+            [126.97765, 37.56722],
+            [126.97765, 37.56690]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "pnu": "1111010100100020000",
+        "sido": "서울특별시",
+        "sigungu": "종로구",
+        "eupmyeondong": "청운동",
+        "jibun": "1-2",
+        "road_address": "서울특별시 종로구 청운동 1-2",
+        "status": "not_issued"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [126.97815, 37.56690],
+            [126.97865, 37.56690],
+            [126.97865, 37.56722],
+            [126.97815, 37.56722],
+            [126.97815, 37.56690]
+          ]
+        ]
+      }
+    }
+  ]
+}
